@@ -53,3 +53,32 @@ body {
         line-height: 1.6;
         color: #555;
     }
+
+    
+
+    .new input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        border: solid 1px #000;
+    }
+
+    .form .container {
+        max-width: 600px;
+        background-color: #555;
+        border-radius: 16px;
+        padding: 80px 16px;
+    }
+
+    .new button {
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: #01c1fc;
+        color: #fff;
+    }
+
+    .form .container h1 {
+        color: #fff;
+    }
