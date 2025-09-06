@@ -82,3 +82,10 @@ body {
     .form .container h1 {
         color: #fff;
     }
+
+    textarea {
+    width: 100%;          /* stays inside container */
+    max-width: 100%;      /* cannot grow beyond container */
+    resize: vertical;     /* only allow up/down resize */
+    box-sizing: border-box; /* includes padding in width */
+}
